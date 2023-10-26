@@ -1,0 +1,6 @@
+Insert(AB)
+Insert(BC)
+Insert(CD)
+Mirror
+Mirror
+PrintLR

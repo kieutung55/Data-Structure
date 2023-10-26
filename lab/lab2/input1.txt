@@ -1,0 +1,9 @@
+string
+head
+world
+digital
+remove tail
+remove [2]
+hello
+print
+remove tail

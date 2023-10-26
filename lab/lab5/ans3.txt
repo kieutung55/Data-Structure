@@ -1,0 +1,16 @@
+False
+True
+arrive: 1
+be: 1
+free: 1
+i: 1
+it: 1
+pick: 1
+shipment: 1
+the: 1
+to: 1
+up: 1
+when: 1
+will: 2
+False
+False

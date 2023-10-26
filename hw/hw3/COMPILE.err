@@ -1,0 +1,25 @@
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::parse(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)':
+hw1.cpp:(.text+0x0): multiple definition of `ArgumentManager::parse(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x0): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::parse(int, char**, char)':
+hw1.cpp:(.text+0x46a): multiple definition of `ArgumentManager::parse(int, char**, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x46a): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::ArgumentManager(int, char**, char)':
+hw1.cpp:(.text+0x570): multiple definition of `ArgumentManager::ArgumentManager(int, char**, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x570): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::ArgumentManager(int, char**, char)':
+hw1.cpp:(.text+0x570): multiple definition of `ArgumentManager::ArgumentManager(int, char**, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x570): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::ArgumentManager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)':
+hw1.cpp:(.text+0x5d8): multiple definition of `ArgumentManager::ArgumentManager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x5d8): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::ArgumentManager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)':
+hw1.cpp:(.text+0x5d8): multiple definition of `ArgumentManager::ArgumentManager(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x5d8): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+hw1.cpp:(.text+0x696): multiple definition of `ArgumentManager::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x696): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `ArgumentManager::toString[abi:cxx11]()':
+hw1.cpp:(.text+0x78c): multiple definition of `ArgumentManager::toString[abi:cxx11]()'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x78c): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `operator<<(std::ostream&, ArgumentManager&)':
+hw1.cpp:(.text+0x93c): multiple definition of `operator<<(std::ostream&, ArgumentManager&)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x93c): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `split(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)':
+hw1.cpp:(.text+0x1e85): multiple definition of `split(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0xd9c): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `removeChar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)':
+hw1.cpp:(.text+0x21d6): multiple definition of `removeChar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char)'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x10ed): first defined here
+/usr/bin/ld: /tmp/ccxQYrX7.o: in function `main':
+hw1.cpp:(.text+0x22c0): multiple definition of `main'; /tmp/cc6iNZi8.o:CasinoGame.cpp:(.text+0x11d7): first defined here
+collect2: error: ld returned 1 exit status

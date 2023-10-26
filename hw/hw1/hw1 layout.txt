@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+
+struct node {
+string name;
+int age;
+int deposit;
+int numDrinks;
+node *next;
+}
+
+class linkedlist {
+private:
+node *head;
+int size;
+
+public:
+linkedlist() {
+  head =nullptr;
+  size = 0;
+}
+}
+
+void add (string name, int age, int deposit, int numDrinks)
+{
+  node *temp =new node;
+  temp->name=name;
+  temp->age=age;
+  temp->deposit=deposit;
+  temp->numDrinks=numDrinks;
+
+  if (head==nullptr)
+  {
+    head = temp;
+  }
+  else 
+  {
+    node *cu = head;
+    while (cu->next !=nullptr)
+      {
+        cu=cu ->next;
+      }
+    cu->next = temp;
+  }
+}
+
+void addAtPos(int string name, int age, int deposit, int numDrinks)
+
+//using template in case attribute is "name"
+template <typename T>
+void remove (string attribute, T value) {
+  
+}
+
+void print(ofstream &output);
+
+//using swap inside sort function helps code look cleaner
+void swap (node *cu1, node *cu2);
+
+//using bubble sort, case attribute is "name", can use ">" and "<", it knows how to sort alphabetically
+void sort (string attribute);

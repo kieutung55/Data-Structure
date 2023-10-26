@@ -1,0 +1,8 @@
+Insert(5)
+Insert(4)
+Insert(6)
+PrintLR
+Mirror
+PrintLR
+Insert(7)
+PrintLR
